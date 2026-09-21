@@ -296,10 +296,24 @@ git push origin main
 
 ## Parcial 2 — Consumo de API (completar por el estudiante)
 
-**Nombre:** _________________________________ · **Carnet:** ______________
+**Nombre:** Geovanny Daniel Barrera Herrera · **Carnet:**25-0615-2022
 
 ### Salida de consola (segunda ejecución)
+C:\Users\geova\.jdks\ms-21.0.12.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\lib\idea_rt.jar=62035" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\geova\IdeaProjects\ClienteInventario-P2--2506152022-\target\classes;C:\Users\geova\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\geova\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\geova\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\geova\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar sv.edu.utec.Main
+--- Inventario inicial ---
+ID    PRODUCTO                    CANTIDAD
+1     Teclado mecanico                  15
+2     Monitor 24 pulgadas               12
 
+Respaldo generado en inventario.json
+Producto 2 actualizado.
+Producto 1 eliminado.
+
+--- Despues de los cambios ---
+ID    PRODUCTO                    CANTIDAD
+2     Monitor 24 pulgadas               12
+
+Registros restaurados desde JSON: 1
 ```
 (pegue aquí la salida completa de la segunda ejecución de Main)
 ```
