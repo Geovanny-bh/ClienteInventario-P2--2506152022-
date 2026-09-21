@@ -1,12 +1,15 @@
 package sv.edu.utec;
 
+import sv.edu.utec.api.proveedorAPI;
 import sv.edu.utec.datos.ProductoDAO;
 import sv.edu.utec.modelo.Producto;
 import sv.edu.utec.servicio.InventarioJsonService;
+import sv.edu.utec.servicio.SincronizacionService;
 
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
+
 
 public class Main {
 
@@ -67,4 +70,5 @@ public class Main {
                     p.getId(), p.getNombre(), p.getCantidad());
         }
     }
+
 }
